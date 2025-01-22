@@ -1,0 +1,58 @@
+ .title{
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.par{
+	font-size: 0.69rem;
+	font-weight: 400;
+	color: lightgray;
+	line-height: 1.15rem;
+}
+
+.mainh1{
+
+	background: linear-gradient(to right, hsl(216, 72%, 47%), whitesmoke);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.icons{
+	gap: 23px;
+	font-size: 0.79rem;
+	display: flex;
+	font-weight: 600;
+}
+
+.acc{
+	display: none;
+}
+
+@media (max-width: 768px) {
+
+   .hideinmobile{
+      display: none;
+   }
+
+	.icons{
+		display: flex;
+		gap: 18px;
+		flex-direction: column;
+	}
+
+	.container{
+		display: flex;
+		
+	}
+
+	.acc{
+		display: flex;
+	}
+
+}
+
+
+
+
+
+

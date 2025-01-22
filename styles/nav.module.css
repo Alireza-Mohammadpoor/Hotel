@@ -1,0 +1,148 @@
+
+
+.flex {
+   display: flex;
+   align-items: center; /* Vertically align logo and input */
+   gap: 30px; /* Space between the logo and input */
+ }
+ 
+ /* Logo styling */
+/* Logo styling */
+.logo {
+   width: 170px;
+   height: 50px;
+   filter: brightness(0) invert(1); /* Makes the logo white */
+ }
+ 
+ 
+ /* Main container styling */
+ .container {
+   /* display: flex; */
+   justify-content: space-between; /* Space between left and right sections */
+   align-items: center; /* Vertically center the items */
+   margin: 0 90px;
+   margin-top: 10px;
+   /* padding: 20px; Padding around the content */
+ }
+ 
+ /* Navigation section styling */
+ /* .navmember {
+   display: flex;
+   gap: 30px;
+   font-size: 0.9rem;
+   font-family: 'Arvo';
+   font-weight: 600;
+   margin-top: 20px;
+ }
+  */
+
+  /* Navigation section styling */
+.navmember {
+   display: flex;
+   gap: 20px;
+   font-size: 0.9rem;
+   font-family: 'Arvo' !important;   
+   font-weight: 600;
+   align-items: center; /* Vertically align items, including the button */
+   margin: 0; /* Remove any extra margins */
+	margin-top: 10px;
+}
+
+
+ /* Input container styling */
+ .inputContainer {
+   display: flex; /* Align input and icon horizontally */
+   position: relative; /* Make the input container relative to position the icon inside it */
+   width: 250px; /* Define the width of the input container */
+   height: 25px;
+ }
+ 
+/* Input Container Styling */
+.inputContainer {
+	display: flex; /* Align input and icon horizontally */
+	position: relative; /* Position relative to place icon */
+	width: 100%; /* Default width for responsiveness */
+	max-width: 400px; /* Limit maximum width */
+	margin: 0 auto; /* Center the input in the container */
+}
+
+
+
+ .inp {
+   color: black;
+   background-color: white;
+   border-radius: 6px;
+   padding: 10px 15px;
+   font-size: 1rem;
+   border: none;
+   outline: none;
+   width: 100%;
+   box-sizing: border-box;
+ }
+ 
+ /* Input placeholder styling */
+ .inp::placeholder {
+   font-size: 0.8rem;
+   font-family: 'Arvo';
+   text-align: left;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ /* Magnifying glass icon inside the input */
+ .icon {
+   position: absolute;
+   top: 50%;
+   right: 10px;
+   transform: translateY(-50%);
+   font-size: 1rem;
+   color: hsl(221, 62%, 41%);
+   pointer-events: none;
+   width: 12px;
+   height: 12px;
+   /* background: hsl(195, 53%, 85%) */
+ }
+
+
+ .secondflex{
+   display: flex;
+   gap: 27px;
+   font-size: 0.82rem;
+   font-weight: 600;
+   font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Arial, sans-serif;
+   margin: 20px 80px;
+   /* color: hsl(0, 0%, 60%); */
+ }
+
+ .navv{
+   display: none;
+}
+
+
+
+
+ @media (max-width: 768px) {
+
+   .hideinmobile{
+      display: none;
+   }
+
+   .navv{
+      display: flex;
+      margin-left: auto;
+		margin-top: 15px;
+		margin-right: 10px;
+     }
+
+   .container{
+      margin: 0;
+   }
+
+	.logo{
+		width: 90%;
+		/* height: 10%; */
+		margin: 10px 10px;
+	}
+
+ }
+

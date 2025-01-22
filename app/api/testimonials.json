@@ -1,0 +1,53 @@
+{
+	"Testimonials": [
+	  {
+		 "author": "John Doe",
+		 "date": "12/4/2024",
+		 "stars": 5,
+		 "description": "I had an amazing experience booking my travel with this website. The process was smooth, and the destination recommendations were perfect for my family vacation!"
+	  },
+	  {
+		 "author": "Sarah Lee",
+		 "date": "1/10/2024",
+		 "stars": 4,
+		 "description": "The site offered great options for affordable trips. Customer service was helpful, though I wish the booking process was a little faster."
+	  },
+	  {
+		 "author": "David Smith",
+		 "date": "3/15/2024",
+		 "stars": 5,
+		 "description": "This travel website has transformed the way I plan my vacations. From flights to activities, everything is seamless and stress-free. Highly recommend it!"
+	  },
+	  {
+		 "author": "Emily White",
+		 "date": "6/22/2024",
+		 "stars": 4,
+		 "description": "I found this website to be very user-friendly, and the destinations available were great. I just wish there were more options for last-minute deals."
+	  },
+	  {
+		 "author": "Michael Brown",
+		 "date": "9/8/2024",
+		 "stars": 5,
+		 "description": "Best travel website I've used! The variety of vacation packages and smooth booking process made my trip planning effortless. I'll definitely be back!"
+	  },
+	  {
+		 "author": "Olivia Green",
+		 "date": "5/30/2024",
+		 "stars": 4,
+		 "description": "Great website, easy to navigate, and lots of options. However, the prices for some of the premium packages were a little higher than expected."
+	  },
+	  {
+		 "author": "James Taylor",
+		 "date": "8/17/2024",
+		 "stars": 5,
+		 "description": "I booked my honeymoon trip through this website, and it was perfect. Every detail was organized, and we had an unforgettable experience."
+	  },
+	  {
+		 "author": "Sophia Harris",
+		 "date": "11/25/2024",
+		 "stars": 4,
+		 "description": "A good experience overall. I loved the variety of destinations, but I feel there could have been more information available about local tours and activities."
+	  }
+	]
+ }
+ 

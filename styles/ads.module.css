@@ -1,0 +1,176 @@
+.container {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 60px;
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	width: 100%;
+ }
+ 
+ .all {
+	margin-left: 90px;
+	margin-top: 65px;
+ }
+ 
+ .title {
+	font-weight: 800;
+	font-size: 2.9rem;
+	font-family: sans-serif;
+	text-align: left;
+	align-items: flex-start;
+	justify-content: flex-start;
+ }
+ 
+ .description {
+	font-weight: 600;
+	font-size: 1.1rem;
+	font-family: sans-serif;
+	margin-top: 10px;
+ }
+ 
+ .inputContainer {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	width: 400px;
+	justify-content: center;
+	text-align: center;
+ }
+ 
+ .input {
+	padding: 10px 10px 10px 40px; /* Adjust left padding for icon space */
+	font-size: 1rem;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	width: 100%;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: black;
+ }
+ 
+ .iconLeft {
+	position: absolute;
+	left: 10px; /* Adjust the spacing for the icon */
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 0.9rem;
+	color: hsl(221, 62%, 41%); /* Icon color */
+	pointer-events: none; /* Prevent interaction with the icon */
+ }
+ 
+ .buttonInsideInput {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 8px 6px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 0.9rem;
+ }
+ 
+ .imageContainer {
+	margin-right: 20px;
+	display: flex;
+	align-items: center;
+ }
+ 
+ .imageContainer img {
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	border-radius: 5px;
+ }
+ 
+ /* Responsive Styles */
+ @media (max-width: 768px) {
+	.all {
+	  margin-left: 0;
+	  margin-top: 40px;
+	}
+ 
+	.inputContainer {
+	  width: 100%;
+	  padding: 0 20px;
+	}
+ 
+	.title {
+	  font-size: 1.5rem;
+	  text-align: center;
+	}
+ 
+	.description {
+	  font-size: 0.8rem;
+	  text-align: center;
+	  font-weight: 500;
+
+	}
+ }
+ 
+ /* @media (max-width: 480px) {
+	.inputContainer {
+	  flex-direction: column;
+	  align-items: flex-start;
+	  gap: 10px;
+	}
+ 
+	.input {
+	  width: 100%;
+	}
+ 
+	.buttonInsideInput {
+	  position: relative;
+	  transform: none;
+	  margin-top: 10px;
+	  width: 100%;
+	  text-align: center;
+	}
+ }
+  */
+
+
+
+
+  /* Responsive Styles */
+@media (max-width: 480px) {
+	.inputContainer {
+	  width: 100%;
+	  padding: 0 20px;
+	  position: relative; /* Ensure positioning stays intact */
+	  display: flex; /* Keep elements aligned */
+	  flex-direction: row; /* Ensure input and button are in a row */
+	  align-items: center;
+	}
+ 
+	.input {
+	  padding: 10px 10px 10px 35px; 
+	  width: 100%; /* Full width for the input */
+	  /* margin-top: 30px; */
+	}
+ 
+	.iconLeft {
+	  position: absolute;
+	  left: 10px; /* Keep icon inside input */
+	  top: 25%;
+	  transform: translateY(-80%);
+	  transform: translateX(100%);
+	  font-size: 1.1rem;
+	  pointer-events: none; /* Avoid interference with input focus */
+	}
+ 
+	.buttonInsideInput {
+	  position: relative; /* Place button after input */
+	  /* margin-left: 5px; Space between input and button */
+	  /* padding: 8px 16px; */
+	  font-size: 0.9rem;
+	  text-align: center;
+	  /* display: block; */
+	  transform: translateY(4%);
+	  /* transform: translateX(-90%); */
+	  /* margin-top: 20px; */
+	}
+ }
+ 

@@ -1,0 +1,93 @@
+{
+	"entertainmentPlaces": [
+		{
+		  "name": "Tokyo Disneyland",
+		  "country": "Japan",
+		  "features": ["bestseller", "free cancellation"],
+		  "stars": 4.7,
+		  "price": 75,
+		  "off": "20%",
+		  "capacity": "800k",
+		  "participants": 58219,
+		  "image": "/images/japan_tokyo_shinbashi_AdobeStock_565333600_Editorial_Use_Only.webp"
+		},
+		{
+		  "name": "Sydney Opera House Tour",
+		  "country": "Australia",
+		  "features": ["instant confirmation", "free cancellation"],
+		  "stars": 4.6,
+		  "price": 40,
+		  "off": "10%",
+		  "capacity": "300k",
+		  "participants": 31428,
+		  "image": "/images/images 1/featured-img-of-post-218507.jpg"
+		},
+		{
+		  "name": "Santorini Sunset Cruise",
+		  "country": "Greece",
+		  "features": ["bestseller", "free cancellation"],
+		  "stars": 4.9,
+		  "price": 60,
+		  "off": "do not have off",
+		  "capacity": "150k",
+		  "participants": 20457,
+		  "image": "/images/Greece-Athina-Luxury-Suites-100.jpg"
+		},
+		{
+		  "name": "Dubai Desert Safari",
+		  "country": "UAE",
+		  "features": ["bestseller", "instant confirmation", "free cancellation"],
+		  "stars": 4.7,
+		  "price": 100,
+		  "off": "25%",
+		  "capacity": "500k",
+		  "participants": 48765,
+		  "image": "/images/images2/international-luxury-villa.jpg"
+		},
+		{
+		  "name": "Niagara Falls Boat Tour",
+		  "country": "Canada",
+		  "features": ["instant confirmation", "free cancellation"],
+		  "stars": 4.6,
+		  "price": 30,
+		  "off": "do not have off",
+		  "capacity": "400k",
+		  "participants": 37321,
+		  "image": "/images/download.webp"
+		},
+		{
+		  "name": "Great Barrier Reef Snorkeling",
+		  "country": "Australia",
+		  "features": ["bestseller", "instant confirmation", "free cancellation"],
+		  "stars": 4.9,
+		  "price": 120,
+		  "off": "15%",
+		  "capacity": "250k",
+		  "participants": 29106,
+		  "image": "/images/Cairo_From_Tower_(cropped).jpg"
+		},
+	  {
+		 "name": "Wonderland Amusement Park",
+		 "country": "USA",
+		 "features": ["bestseller", "instant confirmation", "free cancellation"],
+		 "stars": 4.5,
+		 "price": 50,
+		 "off": "do not have off",
+		 "capacity": "600k",
+		 "participants": 26789,
+		 "image": "/images/los-angeles-city-mountains.jpg"
+	  },
+	  {
+		 "name": "Eiffel Tower Experience",
+		 "country": "France",
+		 "features": ["bestseller", "instant confirmation"],
+		 "stars": 4.8,
+		 "price": 35,
+		 "off": "15%",
+		 "capacity": "200k",
+		 "participants": 64940,
+		 "image": "/images/eiffel-tower-975004_1280.jpg"
+	  }
+	]
+ }
+ 

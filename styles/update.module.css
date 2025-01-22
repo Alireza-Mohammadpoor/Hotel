@@ -1,0 +1,145 @@
+/* update.module.css */
+
+#updatesection {
+	margin-top: 90px;
+	margin-left: 90px;
+ }
+ 
+ .updatescontainer {
+	display: flex;
+	gap: 40px;
+	flex-wrap: wrap;
+	justify-content: center;
+ }
+ 
+ .updatecard {
+	position: relative;
+	width: 100%; /* Default to full width for responsiveness */
+	max-width: 470px; /* Limit max size */
+	height: auto; /* Allow height to adjust based on aspect ratio */
+	aspect-ratio: 2 / 1; /* Maintain a consistent aspect ratio */
+	flex-shrink: 0;
+ }
+ 
+ .updatecard img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	/* margin: 0px 10px; */
+	border-radius: 4px;
+ }
+ 
+ .updatecardoverlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+ }
+ 
+ .updatecardtext {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	margin: 0;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	width: calc(100% - 40px); /* Ensure padding remains responsive */
+ }
+ 
+ .updatecardtext h1 {
+	font-size: 1.2rem; /* Smaller font for responsiveness */
+	font-weight: 600;
+	margin-bottom: 5px;
+ }
+ 
+ .updatecardtext p {
+	font-size: 0.73rem; /* Adjust font size for smaller screens */
+	font-weight: 600;
+	color: hsl(0, 0%, 80%);
+ }
+ 
+ .updatecardbutton {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	padding: 4px 8px;
+	font-size: 0.8rem;
+	color: #fff;
+	font-weight: 600;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	border: 1px solid white;
+ }
+ 
+ /* Media Queries for Responsiveness */
+ @media (max-width: 768px) {
+	#updatesection {
+	  margin-top: 40px;
+	  margin-left: 20px;
+	  margin-right: 20px;
+	}
+ 
+	/* .updatescontainer {
+	  flex-direction: column; 
+	  gap: 20px; 
+	}
+ 
+	.updatecard {
+	  width: 75%; 
+	  max-width: none; 
+	  aspect-ratio: 2 / 1; 
+	  justify-content: center;
+	} */
+
+	/* update.module.css */
+
+	.updatescontainer {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center; /* Center horizontally */
+		align-items: center; /* Center vertically (if needed) */
+		gap: 40px;
+	}
+ 
+	.updatecard {
+		width: 75%; /* Take up 75% of the container width */
+		max-width: 470px; /* Optional: limit max size for larger screens */
+		aspect-ratio: 2 / 1; /* Maintain aspect ratio */
+		display: flex;
+		flex-direction: column; /* Ensure content stacks vertically */
+		align-items: center; /* Center content inside */
+	}
+ 
+  
+	.updatecardtext h1 {
+	  font-size: 0.9rem; /* Adjust font size for smaller screens */
+	}
+ 
+	.updatecardtext p {
+	  font-size: 0.7rem; /* Smaller font for responsiveness */
+	}
+ 
+	.updatecardbutton {
+	  font-size: 0.7rem;
+	}
+ }
+ 
+ @media (max-width: 480px) {
+	.updatecardtext h1 {
+	  font-size: 0.8rem; /* Smaller font for very small screens */
+	}
+ 
+	.updatecardtext p {
+	  font-size: 0.6rem;
+	}
+ 
+	.updatecardbutton {
+	  font-size: 0.6rem;
+	  padding: 3px 6px;
+	}
+ }
+ 

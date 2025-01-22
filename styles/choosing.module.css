@@ -1,0 +1,49 @@
+/* choosing.module.css */
+
+.whyChooseContainer {
+	margin-left: 90px;
+	margin-top: 90px;
+ }
+ 
+ .mainh1 {
+	margin-bottom: 35px;
+	font-family: 'Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Arial, sans-serif';
+	font-weight: 700;
+	font-size: 1.2rem;
+ }
+ 
+ .mainh1 b {
+	font-family: 'Edu Australia VIC WA NT Hand', cursive;
+	font-size: 1.4rem;
+	font-weight: 800;
+ }
+ 
+ .chooseItems {
+	display: flex;
+	gap: 55px;
+	flex-wrap: wrap; /* Allow items to wrap in responsive mode */
+	justify-content: center; /* Center items horizontally */
+ }
+ 
+ /* Media Queries for Responsive Design */
+ @media (max-width: 768px) {
+	.whyChooseContainer {
+		margin-top: 40px;
+		margin-left: 50px;
+		margin-right: 20px;
+	}
+ 
+	.mainh1 {
+	  font-size: 1rem;
+	}
+ 
+	.mainh1 b {
+	  font-size: 1.2rem;
+	}
+ 
+	.chooseItems {
+	  flex-direction: column; /* Stack items vertically */
+	  gap: 20px; /* Reduce gap for smaller screens */
+	}
+ }
+ 

@@ -1,0 +1,166 @@
+{
+	"hotels": [
+	  {
+		 "name": "The Grand Hotel",
+		 "city": "New York",
+		 "country": "USA",
+		 "topRated": true,
+		 "reviews": 1245,
+		 "stars": 5,
+		 "description": "A luxurious hotel in the heart of New York with world-class amenities and stunning views of the city skyline.",
+		 "img": "/hotels/pexels-amar-saleem-15661-70441.jpg",
+		 "pricePerNight": 250.75,
+		 "accommodation": [
+			{ "icon": "fa-bed", "description": "Double Room" },
+			{ "icon": "fa-utensils", "description": "Restaurant" },
+			{ "icon": "fa-swimming-pool", "description": "Swimming Pool" },
+			{ "icon": "fa-spa", "description": "Spa Services" }
+		 ]
+	  },
+	  {
+		 "name": "Oceanview Resort",
+		 "city": "Miami",
+		 "country": "USA",
+		 "topRated": true,
+		 "reviews": 895,
+		 "stars": 4,
+		 "description": "A tropical beachfront resort offering luxurious accommodations and exceptional service with a breathtaking ocean view.",
+		 "img": "/hotels/pexels-asadphoto-1268855.jpg",
+		 "pricePerNight": 180.60,
+		 "accommodation": [
+			{ "icon": "fa-bed", "description": "Beachfront Room" },
+			{ "icon": "fa-utensils", "description": "Seaside Restaurant" },
+			{ "icon": "fa-sun", "description": "Private Beach" }
+		 ]
+	  },
+	  {
+		 "name": "Riverside Inn",
+		 "city": "Chicago",
+		 "country": "USA",
+		 "topRated": false,
+		 "reviews": 450,
+		 "stars": 3,
+		 "description": "A charming, budget-friendly inn located by the river, perfect for travelers seeking a peaceful getaway.",
+		 "img": "/hotels/pexels-asadphoto-1268871.jpg",
+		 "pricePerNight": 100.45,
+		 "accommodation": [
+			{ "icon": "fa-bed", "description": "Standard Room" },
+			{ "icon": "fa-wifi", "description": "Free Wi-Fi" },
+			{ "icon": "fa-parking", "description": "Parking Available" }
+		 ]
+	  },
+	  {
+		 "name": "Mountain Retreat",
+		 "city": "Aspen",
+		 "country": "USA",
+		 "topRated": true,
+		 "reviews": 823,
+		 "stars": 5,
+		 "description": "A luxurious alpine resort offering exceptional skiing, spa treatments, and stunning views of the mountain range.",
+		 "img": "/hotels/pexels-asman-chema-91897-594077.jpg",
+		 "pricePerNight": 300.30,
+		 "accommodation": [
+			{ "icon": "fa-bed", "description": "Mountain View Room" },
+			{ "icon": "fa-skiing", "description": "Skiing" },
+			{ "icon": "fa-spa", "description": "Spa & Wellness" }
+		 ]
+	  },
+	  {
+		 "name": "City Lights Hotel",
+		 "city": "London",
+		 "country": "UK",
+		 "topRated": true,
+		 "reviews": 1087,
+		 "stars": 4,
+		 "description": "An upscale hotel located in central London, offering modern accommodations and exceptional views of the city’s landmarks.",
+		 "img": "/hotels/pexels-boonkong-boonpeng-442952-1134176.jpg",
+		 "pricePerNight": 220.25,
+		 "accommodation": [
+			{ "icon": "fa-bed", "description": "Luxury Room" },
+			{ "icon": "fa-wifi", "description": "High-Speed Internet" },
+			{ "icon": "fa-utensils", "description": "Gourmet Dining" }
+		 ]
+	  },
+	  {
+		 "name": "Sunny Beach Resort",
+		 "city": "Cancun",
+		 "country": "Mexico",
+		 "topRated": true,
+		 "reviews": 1345,
+		 "stars": 5,
+		 "description": "An all-inclusive resort offering stunning beachfront views, a variety of water sports, and exceptional dining experiences.",
+		 "img": "/hotels/pexels-julieaagaard-2096983.jpg",
+		 "pricePerNight": 150.90,
+		 "accommodation": [
+			{ "icon": "fa-bed", "description": "Beachfront Suite" },
+			{ "icon": "fa-swimming-pool", "description": "Infinity Pool" },
+			{ "icon": "fa-spa", "description": "Massage & Spa" }
+		 ]
+	  },
+	  {
+		 "name": "Desert Oasis",
+		 "city": "Dubai",
+		 "country": "UAE",
+		 "topRated": false,
+		 "reviews": 300,
+		 "stars": 4,
+		 "description": "A luxurious hotel in the heart of the desert with exceptional dining and entertainment options, offering a truly unique experience.",
+		 "img": "/hotels/pexels-pixabay-261102.jpg",
+		 "pricePerNight": 230.50,
+		 "accommodation": [
+			{ "icon": "fa-bed", "description": "Luxury Suite" },
+			{ "icon": "fa-utensils", "description": "Exclusive Restaurant" },
+			{ "icon": "fa-gym", "description": "Fitness Center" }
+		 ]
+	  },
+	  {
+		 "name": "Forest Escape",
+		 "city": "Vancouver",
+		 "country": "Canada",
+		 "topRated": true,
+		 "reviews": 1125,
+		 "stars": 4,
+		 "description": "A cozy, secluded hotel surrounded by nature, offering a peaceful escape with hiking, forest walks, and outdoor dining.",
+		 "img": "/hotels/pexels-pixabay-261395.jpg",
+		 "pricePerNight": 140.35,
+		 "accommodation": [
+			{ "icon": "fa-bed", "description": "Forest View Room" },
+			{ "icon": "fa-hiking", "description": "Guided Hiking Tours" },
+			{ "icon": "fa-utensils", "description": "Outdoor Dining" }
+		 ]
+	  },
+	  {
+		 "name": "Seaside Villas",
+		 "city": "Barcelona",
+		 "country": "Spain",
+		 "topRated": true,
+		 "reviews": 745,
+		 "stars": 5,
+		 "description": "Luxurious villas overlooking the sea with private pools, an exclusive spa, and personalized concierge service.",
+		 "img": "/hotels/pexels-pixabay-302831.jpg",
+		 "pricePerNight": 500.80,
+		 "accommodation": [
+			{ "icon": "fa-bed", "description": "Private Villa" },
+			{ "icon": "fa-swimming-pool", "description": "Private Pool" },
+			{ "icon": "fa-spa", "description": "Exclusive Spa" }
+		 ]
+	  },
+	  {
+		 "name": "Urban Loft",
+		 "city": "Tokyo",
+		 "country": "Japan",
+		 "topRated": false,
+		 "reviews": 265,
+		 "stars": 3,
+		 "description": "A modern urban hotel located in downtown Tokyo, perfect for business travelers and tourists alike, with a vibrant atmosphere.",
+		 "img": "/hotels/pexels-quark-studio-1159039-2507010.jpg",
+		 "pricePerNight": 120.95,
+		 "accommodation": [
+			{ "icon": "fa-bed", "description": "Standard Room" },
+			{ "icon": "fa-wifi", "description": "Free Wi-Fi" },
+			{ "icon": "fa-parking", "description": "Parking Available" }
+		 ]
+	  }
+	]
+ }
+ 

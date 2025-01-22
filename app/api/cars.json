@@ -1,0 +1,124 @@
+{
+	"cars": [
+		{
+			"image": "/cars/pexels-amar-12173188.jpg",
+			"name": "Ford Explorer",
+			"pricePerDay": 80.87,
+			"doors": 4,
+			"seats": 7,
+			"type": "SUV",
+			"fuelPolicy": true,
+			"unlimitedMileage": false,
+			"city": "Los Angeles",
+			"stars": 4.0
+		},
+		{
+			"image": "/cars/pexels-hrk-gallery-245057798-28576666.jpg",
+			"name": "Tesla Model S",
+			"pricePerDay": 120.45,
+			"doors": 4,
+			"seats": 5,
+			"type": "Luxury",
+			"fuelPolicy": true,
+			"unlimitedMileage": true,
+			"city": "San Francisco",
+			"stars": 4.5
+		},
+		{
+			"image": "/cars/pexels-garvin-st-villier-719266-3637981.jpg",
+			"name": "Chevrolet Malibu",
+			"pricePerDay": 64.83,
+			"doors": 4,
+			"seats": 5,
+			"type": "Sedan",
+			"fuelPolicy": false,
+			"unlimitedMileage": true,
+			"city": "Chicago",
+			"stars": 4.0
+		},
+		{
+			"image": "/cars/pexels-brett-sayles-1638459.jpg",
+			"name": "Jeep Wrangler",
+			"pricePerDay": 90.12,
+			"doors": 4,
+			"seats": 5,
+			"type": "SUV",
+			"fuelPolicy": true,
+			"unlimitedMileage": false,
+			"city": "Denver",
+			"stars": 4.0
+		},
+		{
+			"image": "/cars/pexels-zhuzichun-229759257-14292717.jpg",
+			"name": "BMW 5 Series",
+			"pricePerDay": 150.75,
+			"doors": 4,
+			"seats": 5,
+			"type": "Luxury",
+			"fuelPolicy": false,
+			"unlimitedMileage": true,
+			"city": "New York",
+			"stars": 5.0
+		},
+		{
+			"image": "/cars/pexels-muhamad-lutfi-2215518-15394302.jpg",
+			"name": "Honda Civic",
+			"pricePerDay": 52.40,
+			"doors": 4,
+			"seats": 5,
+			"type": "Compact",
+			"fuelPolicy": false,
+			"unlimitedMileage": false,
+			"city": "Miami",
+			"stars": 3.5
+		},
+		{
+			"image": "/cars/pexels-yousef-93674273-11285174.jpg",
+			"name": "Toyota Camry",
+			"pricePerDay": 58.93,
+			"doors": 4,
+			"seats": 5,
+			"type": "Sedan",
+			"fuelPolicy": true,
+			"unlimitedMileage": true,
+			"city": "Seattle",
+			"stars": 4.0
+		},
+		{
+			"image": "/cars/pexels-introspectivedsgn-23319054.jpg",
+			"name": "Cadillac Escalade",
+			"pricePerDay": 183.99,
+			"doors": 4,
+			"seats": 7,
+			"type": "Luxury",
+			"fuelPolicy": true,
+			"unlimitedMileage": true,
+			"city": "Dallas",
+			"stars": 5.0
+		},
+		{
+			"image": "/cars/pexels-kampratt-7414528.jpg",
+			"name": "Dodge Charger",
+			"pricePerDay": 75.60,
+			"doors": 4,
+			"seats": 5,
+			"type": "Sport",
+			"fuelPolicy": false,
+			"unlimitedMileage": true,
+			"city": "Atlanta",
+			"stars": 4.0
+		},
+		{
+			"image": "/cars/pexels-gursher-gill-63702010-18633031.jpg",
+			"name": "Chevrolet Tahoe",
+			"pricePerDay": 102.33,
+			"doors": 4,
+			"seats": 7,
+			"type": "SUV",
+			"fuelPolicy": true,
+			"unlimitedMileage": false,
+			"city": "Phoenix",
+			"stars": 4.5
+		}
+	]
+}
