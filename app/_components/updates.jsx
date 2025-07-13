@@ -203,7 +203,7 @@ const Updates = () => {
           <div className={styles['updatecardoverlay']}></div>
           <div className={styles['updatecardtext']}>
             <h1>All Time Favourite Activities in Dubai</h1>
-            <p>Do not forget to check out these activities while you're here</p>
+            <p>Do not forget to check out these activities while you are here</p>
           </div>
           <button className={styles['updatecardbutton']}>Learn More</button>
         </div>

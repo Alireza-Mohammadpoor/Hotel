@@ -108,7 +108,7 @@ import { faUser, faX } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
-import create from 'zustand';
+import {create} from 'zustand';
 import Button from './btn';
 
 // Zustand Store

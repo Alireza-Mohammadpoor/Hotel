@@ -170,7 +170,7 @@ const Favorites = () => {
     <div className={styles.container} id="offers-section">
 	 	<div>
 
-			<h1 className={styles.mainh1}>Travelers' favorite choice</h1>
+			<h1 className={styles.mainh1}>Travelers favorite choice</h1>
 
 			<div className={styles.gridContainer}>
 			{places.slice(0, visibleCount).map((place, index) => (
