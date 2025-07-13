@@ -28,7 +28,8 @@
     "react-simple-maps": "^3.0.0",
     "react-tooltip": "^5.28.0",
     "swiper": "^11.1.15",
-    "three": "^0.171.0"
+    "three": "^0.171.0",
+    "zustand": "^5.0.6"
   },
   "devDependencies": {
     "eslint": "^8",
