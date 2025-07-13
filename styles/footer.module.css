@@ -1,58 +1,76 @@
- .title{
-	font-size: 1.2rem;
-	font-weight: 600;
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
-.par{
-	font-size: 0.69rem;
-	font-weight: 400;
-	color: lightgray;
-	line-height: 1.15rem;
+.par {
+  font-size: 0.69rem;
+  font-weight: 400;
+  color: lightgray;
+  line-height: 1.15rem;
+}
+/* 
+.mainh1 {
+  background: linear-gradient(to right, hsl(216, 72%, 47%), whitesmoke);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+.mainh1 {
+  background: linear-gradient(to right, hsl(216, 72%, 47%), whitesmoke);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
 }
 
-.mainh1{
 
-	background: linear-gradient(to right, hsl(216, 72%, 47%), whitesmoke);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
 }
 
-.icons{
-	gap: 23px;
-	font-size: 0.79rem;
-	display: flex;
-	font-weight: 600;
+
+.icons span {
+  font-size: 0.79rem;
+  font-weight: 600;
+  color: white;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
 }
 
-.acc{
-	display: none;
+.acc {
+  display: none;
 }
 
 @media (max-width: 768px) {
+  .hideinmobile {
+    display: none;
+  }
 
-   .hideinmobile{
-      display: none;
-   }
+  .icons {
+    gap: 10px;
+    justify-content: center;
+	background: linear-gradient(to right, hsl(216, 72%, 47%), whitesmoke);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
 
-	.icons{
-		display: flex;
-		gap: 18px;
-		flex-direction: column;
-	}
+  .mainh1 {
+    font-size: 0.7rem;
+	background: linear-gradient(to right, hsl(216, 72%, 47%), whitesmoke);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
 
-	.container{
-		display: flex;
-		
-	}
-
-	.acc{
-		display: flex;
-	}
-
+  .acc {
+    display: flex;
+  }
 }
-
-
-
-
-
-

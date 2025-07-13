@@ -168,7 +168,7 @@ const Favorites = () => {
 
   return (
     <div className={styles.container} id="offers-section">
-	 	<div style={{marginLeft : "60px"}}>
+	 	<div>
 
 			<h1 className={styles.mainh1}>Travelers' favorite choice</h1>
 
